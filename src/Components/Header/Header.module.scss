@@ -1,0 +1,86 @@
+@import "../../sass/variables.scss";
+
+.headerCont {
+  height: 150px;
+  width: 100%;
+
+  
+}
+
+.circleName {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #1ea59a;
+  @media #{$nonDesk} {
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+.nameInside {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media #{$mobile} {
+    font-size: 14px;
+  }
+  
+}
+
+.navigateTabs {
+  display: flex;
+  align-items: center;
+
+}
+
+.ul_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  @media #{$nonDesk} {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.list_word {
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 50px;
+  @media #{$mobile} {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+}
+
+.headersLink {
+  display: flex;
+  padding: 50px 0;
+  @media #{$nonDesk} {
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.headersLink1 {
+  display: flex;
+  padding: 50px 0;
+  @media #{$nonDesk} {
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+}

@@ -1,0 +1,75 @@
+.allContainer {
+  width: 100%;
+  display: flex;
+}
+
+.firstCont {
+  background-color: white;
+  margin: auto;
+  height: 500px;
+}
+
+.title {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  display: block;
+}
+
+.paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  color: #404852;
+}
+
+.number {
+  display: block;
+  font-size: 80px;
+  font-weight: 800;
+  color: #1ea59a;
+}
+
+.textParagraphStyle {
+  margin-bottom: 20px;
+}
+
+.SecondCont {
+  width: 50%;
+  background-color: #f6fafa;
+  height: 500px;
+
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: lightgreen;
+  position: relative;
+}
+
+.imageStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1ea59a;
+}
+
+.nameInside {
+  background-image: url("../../assets/clickImage.png");
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imageTitle {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.innerCont {
+  width: 50%;
+  margin: auto;
+  height: 550px;
+}
